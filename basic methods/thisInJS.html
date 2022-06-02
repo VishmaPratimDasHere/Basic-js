@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+      name="window";
+      function maskAdvisory() {
+        document.write("Everyone should wear masks because you never know!" + "<br>")
+      }
+      function maskAdvisory(name){
+        document.write(this.name + "Please wear a mask from now on !")
+      }
+
+      // const obj = {
+      //   name: "jj",
+      //   sgpa: 10.00,
+      //   sayName: function() {
+      //     document.write(this.name + " has a great sgpa of " + this.sgpa + "<br>")
+      //   },
+      // }
+      //
+      // const obj2 = {
+      //   name: "krishna",
+      //   sgpa: 10.00,
+      // }
+      //
+      // var j = obj.sayName.bind(obj2)
+      // j()
+
+      function add2Numbers(a,b){
+        console.log(arguments)
+      }
+
+      add2Numbers(2,3,5)
+
+      var arrowfn = (a,b) => {
+        console.log(arguments)
+      }
+
+      // arrowfn(2,3,4) : THIS LINE WILL GIVE ERROR; NO ARGUMENT OBJECT
+      //                                        EXIST IN ARROW FUNCTION
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
